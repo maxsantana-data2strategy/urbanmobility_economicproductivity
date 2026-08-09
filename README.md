@@ -4,7 +4,7 @@
 Data-driven analysis integrating real-time traffic data (TomTom Traffic Index) with urban economic indicators (OECD Cities) across 15 Latin American cities in 7 countries, to evaluate how urban mobility relates to economic productivity. Built a unified city-level dataset via aggregation and inner join, then used correlation analysis to test whether congestion is driven by GDP per capita, population size, or unemployment. Found that congestion is **weakly correlated with GDP per capita (r = 0.28)**, but **strongly driven by population size (r = 0.88)** and **inversely correlated with unemployment (r = -0.69)** — identifying Bogotá and Lima as priority cities for transport infrastructure investment based on their congestion-to-productivity ratio.
 
 <!-- Botón Verde: Enlace a la Infografía -->
-[![DOWNLOAD INFOGRAPHIC PDF](https://img.shields.io/badge/DOWNLOAD%20INFOGRAPHIC%20PDF-2ea44f?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](assets/Infographic_UrbanMobility_LatAm.png)
+[![DOWNLOAD INFOGRAPHIC](https://img.shields.io/badge/DOWNLOAD%20INFOGRAPHIC%20PDF-2ea44f?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](assets/Infographic_UrbanMobility_LatAm_HighRes_1.png)
 
 ## 🎯 Problem Statement
 **Business Question:** In which cities should a development bank invest in transport infrastructure to raise economic productivity and urban well-being?
