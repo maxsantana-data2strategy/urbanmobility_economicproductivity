@@ -68,7 +68,10 @@ Context → Findings → Implications (C→F→I)
 
 🔍 Findings:
 
+- Athough major economic hubs like Mexico City and São Paulo experience heavy congestion due to intense urban activity, other wealthy cities like Montevideo and Brasília have high GDP per capita while experiencing much lower traffic delays.
+  
 - Highest strategic urgency. Bogotá & Lima have severe traffic friction paired with lower GDP per capita (ratios 0.100 and 0.078), an atypical characteristic for relatively moderate populations compared to megacities
+  ![Description of image](assets/graph_eco_mobility2_project.png)
 - High-scale congestion. Mexico City & São Paulo, although they have the highest absolute congestion in the dataset (ratios 0.134 and 0.118), are driven primarily by population scale and dense urban activity rather than inefficiency
 - Efficient benchmarks. For small cities, Montevideo & Brasília combine high GDP per capita with minimal traffic delay, serving as models of balanced mobility and urban planning. For moderate-sized cities, Buenos Aires and Rio de Janeiro showcase a more efficient and balanced approach between mobility and economic indicators.
 - Population is the main driver of congestion (r = 0.88), while GDP per capita is only weakly correlated (r = 0.28) — economic output alone does not explain traffic
@@ -78,7 +81,7 @@ Brazil contributes 9 of the 15 cities in the dataset, a country imbalance that c
 
 💡 Implications:
 
-- Prioritize Bogotá and Lima: the clearest case for infrastructure investment, combining high traffic friction with comparatively lower economic output
+- Prioritise Bogotá and Lima: the clearest case for infrastructure investment, combining high traffic friction with comparatively lower economic output
 - Treat Mexico City / São Paulo as scale cases: their congestion reflects city size, not fixable inefficiency, a different investment logic than mid-sized, high-friction cities
 - Study Rio de Janeiro, Buenos Aires Montevideo and Brasília as reference models for what balanced mobility-productivity outcomes look like
 - Exclude or revalidate Santiago's GDP figure before using it in any resourcing decision
