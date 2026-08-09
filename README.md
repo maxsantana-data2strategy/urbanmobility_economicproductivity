@@ -3,6 +3,9 @@
 ## 🔍 Overview
 Data-driven analysis integrating real-time traffic data (TomTom Traffic Index) with urban economic indicators (OECD Cities) across 15 Latin American cities in 7 countries, to evaluate how urban mobility relates to economic productivity. Built a unified city-level dataset via aggregation and inner join, then used correlation analysis to test whether congestion is driven by GDP per capita, population size, or unemployment. Found that congestion is **weakly correlated with GDP per capita (r = 0.28)**, but **strongly driven by population size (r = 0.88)** and **inversely correlated with unemployment (r = -0.69)** — identifying Bogotá and Lima as priority cities for transport infrastructure investment based on their congestion-to-productivity ratio.
 
+<!-- Botón Verde: Enlace a la Infografía -->
+[![DOWNLOAD INFOGRAPHIC PDF](https://img.shields.io/badge/DOWNLOAD%20INFOGRAPHIC%20PDF-2ea44f?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](assets/nombre_de_tu_infografia.pdf)
+
 ## 🎯 Problem Statement
 **Business Question:** In which cities should a development bank invest in transport infrastructure to raise economic productivity and urban well-being?
 
@@ -69,13 +72,14 @@ Context → Findings → Implications (C→F→I)
 🔍 Findings:
 
 - Athough major economic hubs like Mexico City and São Paulo experience heavy congestion due to intense urban activity, other wealthy cities like Montevideo and Brasília have high GDP per capita while experiencing much lower traffic delays.
-  
+   ![Description of image](assets/figure_1.png)
 - Highest strategic urgency. Bogotá & Lima have severe traffic friction paired with lower GDP per capita (ratios 0.100 and 0.078), an atypical characteristic for relatively moderate populations compared to megacities
   ![Description of image](assets/graph_eco_mobility2_project.png)
 - High-scale congestion. Mexico City & São Paulo, although they have the highest absolute congestion in the dataset (ratios 0.134 and 0.118), are driven primarily by population scale and dense urban activity rather than inefficiency
 - Efficient benchmarks. For small cities, Montevideo & Brasília combine high GDP per capita with minimal traffic delay, serving as models of balanced mobility and urban planning. For moderate-sized cities, Buenos Aires and Rio de Janeiro showcase a more efficient and balanced approach between mobility and economic indicators.
 - Population is the main driver of congestion (r = 0.88), while GDP per capita is only weakly correlated (r = 0.28) — economic output alone does not explain traffic
 - Unemployment moves inversely with congestion (r = -0.69), GDP (r = -0.51), and population (r = -0.57) — lower unemployment tracks with busier, larger, more congested cities
+    ![Description of image](assets/figure_2.png)
 - Data quality flag: Santiago's 2024 GDP/capita ($2,277) contradicts its own 2023 figure (~$22,176) and its established position among top LATAM cities by GDP per capita, pointing to a source-data error rather than a real economic shift
 Brazil contributes 9 of the 15 cities in the dataset, a country imbalance that could skew cross-country comparisons
 
