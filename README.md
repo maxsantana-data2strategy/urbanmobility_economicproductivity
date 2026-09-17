@@ -96,9 +96,7 @@ Brazil contributes 9 of the 15 cities in the dataset, a country imbalance that c
 ├── notebook/
 │   └── ladb_mobility_economy_project.ipynb   # Full analysis notebook (code + documentation)
 ├── data/
-│   ├── tomtom_traffic.csv                    # Raw traffic/congestion source data
-│   ├── oecd_city_economy.csv                 # Raw economic indicators source data
-│   └── ladb_mobility_economy_2024_clean.csv  # Final merged, clean dataset (2024)
+│   └── ladb_mobility_economy_2024_clean.csv  # Final merged, clean dataset (2024) | (Raw datasets available here)
 ├── assets/                                   # visuals and infographics
 └── README.md                                 # This file
 ```
