@@ -96,10 +96,15 @@ Brazil contributes 9 of the 15 cities in the dataset, a country imbalance that c
 ├── notebook/
 │   └── ladb_mobility_economy_project.ipynb   # Full analysis notebook (code + documentation)
 ├── data/
-│   └── ladb_mobility_economy_2024_clean.csv  # Final merged, clean dataset (2024) | (Raw datasets available here)
+│   └── ladb_mobility_economy_2024_clean.csv  # Final merged, clean dataset (2024) | 
 ├── assets/                                   # visuals and infographics
 └── README.md                                 # This file
 ```
+# Raw databases
+
+Due to file size limitations, the complete raw dataset is hosted on Google Drive:
+
+* [Download Raw Dataset from Google Drive](https://drive.google.com/drive/folders/1bEDPEdbT7OreiyujDhwHdkCe6MqCyX7_?usp=sharing)
 
 ## 🚀 How to Use
 
